@@ -1,0 +1,4 @@
+n = float(input('Digite um numero: '))
+print('='*25)
+print('O dobro é: {} \nO triplo é: {} \nA raiz quadrada é: {:.2f}'.format(n*2, n*3, n**(1/2)))
+print('='*25)

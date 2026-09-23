@@ -1,0 +1,6 @@
+n = float(input('Digite o valor do produto sem desconto: '))
+p = float(input('Digite o valor da % de desconto: '))
+d = n-((n/100)*p)
+print('='*50)
+print('O valor com {}% de desconto é: {:.2f}'.format(p, d))
+print('='*50)

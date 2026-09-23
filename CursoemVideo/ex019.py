@@ -1,0 +1,11 @@
+import random
+
+a1 = str(input('Digite o nome do primeiro aluno: '))
+a2 = str(input('Digite o nome do segundo aluno: '))
+a3 = str(input('Digite o nome do terceiro aluno: '))
+a4 = str(input('Digite o nome do quarto aluno: '))
+lista = [a1,a2,a3,a4]
+e = random.choice(lista)
+print('='*35)
+print('O aluno escolhido foi: {}'.format(e))
+print('='*35)

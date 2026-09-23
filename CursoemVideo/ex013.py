@@ -1,0 +1,6 @@
+s = float(input('Digite o salário atual: '))
+a = float(input('qual a % de acréscimo: '))
+r = s+(s*(a/100))
+print('='*50)
+print('O novo salário com {}% de acréscimo é: {:.2f}'.format(a, r))
+print('='*50)
